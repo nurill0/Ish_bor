@@ -2,6 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Iltimos joylashuvdan foydalanish uchun ruxsat bering.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Iltimos joylashuvdan foydalanish uchun ruxsat bering.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Iltimos joylashuvdan foydalanish uchun ruxsat bering.</string>
+	<key>NSFileProviderDomainUsageDescription</key>
+	<string>Please allow for use your photos</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Please allow for use your photos</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

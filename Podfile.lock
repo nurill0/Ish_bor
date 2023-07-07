@@ -1,0 +1,32 @@
+PODS:
+  - GoogleMaps (7.1.0):
+    - GoogleMaps/Maps (= 7.1.0)
+  - GoogleMaps/Base (7.1.0)
+  - GoogleMaps/Maps (7.1.0):
+    - GoogleMaps/Base
+  - IQKeyboardManagerSwift (6.5.10)
+  - Kingfisher (7.3.2)
+  - SideMenu (6.5.0)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - IQKeyboardManagerSwift
+  - Kingfisher (~> 7.0)
+  - SideMenu
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - SideMenu
+
+SPEC CHECKSUMS:
+  GoogleMaps: bc56ffb0324e345a2d91bac1a64a920f9c8f1b20
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  Kingfisher: 0086ad83719761ba9b2cdaf6ef4d5b4878cbae23
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+
+PODFILE CHECKSUM: 34cdcb8b9b6c9d36462209e009adfd5aaef44877
+
+COCOAPODS: 1.11.3

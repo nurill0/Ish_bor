@@ -1,12 +1,15 @@
 //
 //  AppDelegate.swift
 //  Ish Bor
-//
+//  AIzaSyB5vfa2b7t3cVAMF4tSKdugSrv5invYdVo
 //  Created by Nurillo Domlajonov on 08/02/23.
 //
 
 import UIKit
 import CoreData
+import IQKeyboardManagerSwift
+import GoogleMaps
+
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Override point for customization after application launch.
+        IQKeyboardManager.shared.enable = true
+        GMSServices.provideAPIKey("AIzaSyB5vfa2b7t3cVAMF4tSKdugSrv5invYdVo")
+        if #available(iOS 13.0, *) {
+            
+        } else {
+            appLauncher = AppLauncher()
+            appLauncher?.showMainPage()
+        }
         // Override point for customization after application launch.
         return true
     }
