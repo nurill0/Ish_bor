@@ -150,6 +150,19 @@
 			name = CreatPost;
 			sourceTree = "<group>";
 		};
+		FB4FAB022A585DE1004B6BD5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FBFFF2FB2993E16C002C7D89 /* Info.plist */,
+				FBFFF2F32993E16B002C7D89 /* Ish_Bor.xcdatamodeld */,
+				FBFFF30C29941DF3002C7D89 /* Pages */,
+				FBFFF3032993E255002C7D89 /* Extensions */,
+				FBFFF3022993E1F7002C7D89 /* Sources */,
+				FBFFF3012993E1E6002C7D89 /* Delegate */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		FB644F87299CB9CC0089700C /* SideMenuController */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,10 +224,7 @@
 		FBFFF2E92993E16B002C7D89 /* Ish Bor */ = {
 			isa = PBXGroup;
 			children = (
-				FBFFF316299423F8002C7D89 /* Core */,
-				FBFFF30C29941DF3002C7D89 /* Pages */,
-				FBFFF2FB2993E16C002C7D89 /* Info.plist */,
-				FBFFF2F32993E16B002C7D89 /* Ish_Bor.xcdatamodeld */,
+				FB4FAB022A585DE1004B6BD5 /* Core */,
 			);
 			path = "Ish Bor";
 			sourceTree = "<group>";
@@ -286,16 +296,6 @@
 				FBDE704A29A5E9CE00932351 /* BaseTextFieldItems.swift */,
 			);
 			name = BaseItems;
-			sourceTree = "<group>";
-		};
-		FBFFF316299423F8002C7D89 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				FBFFF3012993E1E6002C7D89 /* Delegate */,
-				FBFFF3022993E1F7002C7D89 /* Sources */,
-				FBFFF3032993E255002C7D89 /* Extensions */,
-			);
-			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
